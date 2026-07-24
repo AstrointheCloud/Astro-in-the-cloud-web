@@ -1,18 +1,18 @@
 # Astro in the Cloud 🌟
 
-Repositorio oficial del sitio web y portafolio personal.
+Official repository for my personal website and portfolio.
 
-## 🌐 Sitio en Vivo
-* **Dominio:** [https://astrointhecloud.com](https://astrointhecloud.com)
+## 🌐 Live Site
+* **Domain:** [https://astrointhecloud.com](https://astrointhecloud.com)
 * **Hosting:** GitHub Pages
-* **DNS & Correo:** Configurado en Strikingly
+* **DNS & Email:** Configured via Strikingly
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Tech Stack
 * **Frontend:** HTML5, CSS3, JavaScript
-* **Desarrollo:** Asistido con Inteligencia Artificial (DeepSeek)
+* **Development:** AI-assisted development (DeepSeek)
 
-## ⚙️ Despliegue
-Este repositorio está desplegado automáticamente a través de **GitHub Pages**. Cualquier cambio enviado a la rama `main` se actualizará en vivo en el sitio en cuestión de segundos.
+## ⚙️ Deployment
+This repository automatically deploys via **GitHub Pages**. Any changes pushed to the `main` branch will automatically update on the live site within seconds.
 
 ---
 *Astrointhecloud — Portfolio & Personal Brand*
