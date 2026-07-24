@@ -1,4 +1,4 @@
-# Astro in the Cloud 
+# Astro in the Cloud 🌟
 
 Repositorio oficial del sitio web y portafolio personal.
 
