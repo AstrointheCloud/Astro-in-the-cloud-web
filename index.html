@@ -83,7 +83,6 @@
         .fragment-aws{border-left:3px solid var(--neon-blue)}
         .fragment-aws::before{background:radial-gradient(ellipse at 20% 50%,rgba(68,136,255,.1) 0,transparent 60%)}
         .fragment-aws:hover{box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 50px rgba(68,136,255,.15),inset 0 0 30px rgba(68,136,255,.03)}
-        /* Estilos específicos para el proyecto secreto (fragment-meta) */
         .fragment-meta{border-left:3px solid var(--neon-pink)}
         .fragment-meta::before{background:radial-gradient(ellipse at 20% 50%,rgba(255,45,149,.1) 0,transparent 60%)}
         .fragment-meta:hover{box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 50px rgba(255,45,149,.15),inset 0 0 30px rgba(255,45,149,.03)}
@@ -101,22 +100,19 @@
         .fragment-header{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:18px;flex-wrap:wrap;gap:10px}
         .fragment-id{font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;color:#605070!important;word-break:break-word}
         .fragment-status{font-size:.6rem;letter-spacing:.2em;padding:5px 14px;border:1px solid;text-transform:uppercase;text-shadow:0 0 6px currentColor;border-radius:12px;white-space:nowrap}
-        .status-live{color:#4ade80;border-color:#4ade80;box-shadow:0 0 10px rgba(74,222,128,.2);animation:statusPulse 2s ease-in-out infinite}
-        .status-experiment{color:var(--neon-cyan);border-color:var(--neon-cyan);box-shadow:0 0 10px rgba(0,229,255,.2)}
-        .status-terminated{color:var(--neon-blue);border-color:var(--neon-blue);box-shadow:0 0 10px rgba(68,136,255,.2)}
-        .status-stealth{color:var(--neon-pink);border-color:var(--neon-pink);box-shadow:0 0 10px rgba(255,45,149,.2)}
-        .status-active{color:var(--neon-green);border-color:var(--neon-green);box-shadow:0 0 10px rgba(74,222,128,.2)}
-        .status-playing{color:var(--neon-yellow);border-color:var(--neon-yellow);box-shadow:0 0 10px rgba(245,229,108,.2);animation:statusPulse 2.5s ease-in-out infinite}
-        .status-transmitting{color:var(--neon-purple);border-color:var(--neon-purple);box-shadow:0 0 10px rgba(181,55,242,.2);animation:statusPulse 3s ease-in-out infinite}
-        .status-learning{color:#f0c040;border-color:#f0c040;box-shadow:0 0 10px rgba(240,192,64,.2);animation:statusPulse 2.8s ease-in-out infinite}
-        .status-drafting{color:var(--blog-teal);border-color:var(--blog-teal);box-shadow:0 0 10px rgba(45,212,191,.2);animation:statusPulse 3s ease-in-out infinite}
+        .status-live{color:var(--neon-orange);border-color:var(--neon-orange);box-shadow:0 0 10px rgba(255,140,66,.2);animation:statusPulse 2s ease-in-out infinite}
+        .status-experiment-cyan{color:var(--neon-cyan);border-color:var(--neon-cyan);box-shadow:0 0 10px rgba(0,229,255,.2)}
+        .status-completed{color:var(--neon-blue);border-color:var(--neon-blue);box-shadow:0 0 10px rgba(68,136,255,.2)}
+        .status-experiment-pink{color:var(--neon-pink);border-color:var(--neon-pink);box-shadow:0 0 10px rgba(255,45,149,.2)}
+        .status-active-yellow{color:var(--neon-yellow);border-color:var(--neon-yellow);box-shadow:0 0 10px rgba(245,229,108,.2);animation:statusPulse 2.5s ease-in-out infinite}
+        .status-stealth-green{color:var(--neon-green);border-color:var(--neon-green);box-shadow:0 0 10px rgba(74,222,128,.2)}
         @keyframes statusPulse{0%,100%{box-shadow:0 0 10px rgba(74,222,128,.2)}50%{box-shadow:0 0 25px rgba(74,222,128,.5)}}
         .fragment-title{font-size:1.8rem;font-weight:700;letter-spacing:.06em;margin-bottom:14px;color:#f0e0ff;text-shadow:0 0 15px rgba(200,180,255,.3);word-break:break-word}
         .fragment-desc{font-size:.95rem;line-height:1.8;color:#a090c0;margin-bottom:20px;max-width:600px;margin-left:auto;margin-right:auto;word-break:break-word;width:100%}
         .fragment-tags{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:18px;width:100%}
-        .tag{font-size:.65rem;letter-spacing:.12em;padding:6px 16px;border:1px solid rgba(255,255,255,.12);color:#9080b0;transition:all .3s;text-transform:uppercase;text-decoration:none;cursor:default;border-radius:20px;white-space:nowrap}
+        .tag{font-size:.65rem;letter-spacing:.12em;padding:6px 16px;border:1px solid rgba(255,255,255,.12);color:#9080b0;transition:all .3s;text-transform:uppercase;text-decoration:none;cursor:default;border-radius:20px;white-space:nowrap;font-weight:700}
         .fragment:hover .tag{border-color:rgba(255,255,255,.25);color:#c0b0e0}
-        .tag-link{cursor:pointer;border-color:rgba(181,55,242,.4);color:#b0a0d0;text-decoration:none;border-radius:20px}
+        .tag-link{cursor:pointer;border-color:rgba(181,55,242,.4);color:#b0a0d0;text-decoration:none;border-radius:20px;font-weight:700}
         .tag-link:hover{border-color:var(--neon-purple);color:#fff;text-shadow:0 0 10px rgba(181,55,242,.6);background:rgba(181,55,242,.08)}
         .social-links{margin-top:20px;padding-top:18px;border-top:1px dashed rgba(255,255,255,.06);display:flex;gap:10px;flex-wrap:wrap;justify-content:center;width:100%}
         .playlist-link{margin-top:15px;display:inline-block;font-family:var(--font-mono);font-size:.7rem;font-weight:700;color:var(--neon-yellow);text-decoration:none;border:1px solid rgba(245,229,108,.3);padding:6px 14px;transition:all .3s;border-radius:20px}
@@ -140,8 +136,8 @@
         .btn-aws:hover{background:rgba(68,136,255,.1);border-color:var(--neon-blue);box-shadow:0 0 25px rgba(68,136,255,.15)}
         .btn-cyber{color:var(--neon-pink);border-color:rgba(255,45,149,.3)}
         .btn-cyber:hover{background:rgba(255,45,149,.1);border-color:var(--neon-pink);box-shadow:0 0 25px rgba(255,45,149,.15)}
-        .btn-code{color:var(--neon-green);border-color:rgba(74,222,128,.3)}
-        .btn-code:hover{background:rgba(74,222,128,.1);border-color:var(--neon-green);box-shadow:0 0 25px rgba(74,222,128,.15)}
+        .btn-code{color:var(--neon-yellow);border-color:rgba(245,229,108,.3)}
+        .btn-code:hover{background:rgba(245,229,108,.1);border-color:var(--neon-yellow);box-shadow:0 0 25px rgba(245,229,108,.15)}
         .subproject{background:rgba(68,136,255,.05);border-left:3px solid var(--neon-blue);border-radius:4px;padding:16px 18px;margin:16px 0 12px 0;text-align:left;transition:all .3s;width:100%;box-sizing:border-box;overflow-wrap:break-word;word-wrap:break-word}
         .subproject:hover{background:rgba(68,136,255,.08)}
         .subproject-header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
@@ -154,25 +150,9 @@
         .subproject-placeholder{border:1px dashed rgba(255,255,255,.06);border-radius:4px;padding:12px 16px;text-align:center;opacity:.4;margin-top:12px;width:100%;box-sizing:border-box}
         .subproject-placeholder span{font-size:.6rem;color:#605070;letter-spacing:.12em;text-transform:uppercase}
         .improvement-notes{display:none}
-        /* Efecto Scramble - Proyecto Secreto */
-        .scramble-text {
-            color: #f0e0ff;
-            text-shadow: 0 0 15px rgba(255,45,149,.3);
-            font-family: var(--font-mono);
-            letter-spacing: 0.1em;
-            transition: all 0.3s ease;
-            display: inline-block;
-        }
-        .fragment-meta:hover .scramble-text {
-            animation: scrambleHard 0.3s steps(1) 4;
-            text-shadow: 0 0 30px rgba(255,45,149,.6), 0 0 60px rgba(255,45,149,.3);
-        }
-        @keyframes scrambleHard {
-            0%, 100% { color: #f0e0ff; }
-            25% { color: var(--neon-pink); }
-            50% { color: var(--neon-cyan); }
-            75% { color: #fff; }
-        }
+        .scramble-text{color:#f0e0ff;text-shadow:0 0 15px rgba(255,45,149,.3);font-family:var(--font-mono);letter-spacing:0.1em;transition:all 0.3s ease;display:inline-block}
+        .fragment-meta:hover .scramble-text{animation:scrambleHard 0.3s steps(1) 4;text-shadow:0 0 30px rgba(255,45,149,.6),0 0 60px rgba(255,45,149,.3)}
+        @keyframes scrambleHard{0%,100%{color:#f0e0ff}25%{color:var(--neon-pink)}50%{color:var(--neon-cyan)}75%{color:#fff}}
         .locked-indicator{display:inline-flex;align-items:center;gap:10px;margin-top:18px;font-size:.75rem;color:var(--neon-pink);letter-spacing:.2em;text-shadow:0 0 10px rgba(255,45,149,.5);opacity:.8;flex-wrap:wrap;justify-content:center}
         .locked-icon{width:12px;height:16px;border:2px solid var(--neon-pink);border-radius:2px;position:relative;box-shadow:0 0 8px rgba(255,45,149,.4);flex-shrink:0}
         .locked-icon::after{content:'';position:absolute;top:-7px;left:50%;transform:translateX(-50%);width:7px;height:7px;border:2px solid var(--neon-pink);border-radius:50%;border-bottom:none}
@@ -297,7 +277,7 @@
             </div>
         </section>
 
-        <div class="content-section" id="section-about" role="tabpanel"><button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button><div class="fragments"><article class="fragment fragment-about"><div class="fragment-header"><span class="fragment-id">PPF-00-000</span><span class="fragment-status status-transmitting">● Transmitting</span></div><h2 class="fragment-title">About Me</h2><p class="fragment-desc" data-en="I'm a builder. Websites, hardware, everything in between. I go where the ideas and curiosity take me. If something sparks my interest, I dive in and figure it out." data-es="Soy una constructora. Webs, hardware, todo lo que hay en medio. Voy a donde me llevan las ideas y la curiosidad. Si algo despierta mi interés, me sumerjo y lo resuelvo.">I'm a builder. Websites, hardware, everything in between. I go where the ideas and curiosity take me. If something sparks my interest, I dive in and figure it out.</p><div class="social-links"><a href="https://youtube.com/@AstroIntheCloud" target="_blank" rel="noopener noreferrer" class="tag tag-link">🎥 YouTube</a><a href="https://github.com/AstrointheCloud" target="_blank" rel="noopener noreferrer" class="tag tag-link">🔗 GitHub</a><a href="https://discord.gg/emE7ewSTj" target="_blank" rel="noopener noreferrer" class="tag tag-link">💬 Discord</a><a href="https://www.linkedin.com/in/mariana-lugo/" target="_blank" rel="noopener noreferrer" class="tag tag-link">💼 LinkedIn</a></div></article></div></div>
+        <div class="content-section" id="section-about" role="tabpanel"><button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button><div class="fragments"><article class="fragment fragment-about"><div class="fragment-header"><span class="fragment-id">PPF-00-000</span><span class="fragment-status status-transmitting">● Transmitting</span></div><h2 class="fragment-title">About Me</h2><p class="fragment-desc" data-en="I'm a builder. Websites, hardware, everything in between. I go where the ideas and curiosity take me. If something sparks my interest, I dive in and figure it out." data-es="Soy una constructora. Webs, hardware, todo lo que hay en medio. Voy a donde me llevan las ideas y la curiosidad. Si algo despierta mi interés, me sumerjo y lo resuelvo.">I'm a builder. Websites, hardware, everything in between. I go where the ideas and curiosity take me. If something sparks my interest, I dive in and figure it out.</p><div class="social-links"><a href="https://youtube.com/@AstroIntheCloud" target="_blank" rel="noopener noreferrer" class="tag tag-link">YouTube</a><a href="https://github.com/AstrointheCloud" target="_blank" rel="noopener noreferrer" class="tag tag-link">GitHub</a><a href="https://discord.gg/emE7ewSTj" target="_blank" rel="noopener noreferrer" class="tag tag-link">Discord</a><a href="https://www.linkedin.com/in/mariana-lugo/" target="_blank" rel="noopener noreferrer" class="tag tag-link">LinkedIn</a></div></article></div></div>
 
         <div class="content-section" id="section-certs" role="tabpanel"><button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button><div class="fragments"><article class="fragment fragment-certs"><div class="fragment-header"><span class="fragment-id">CERT-TECH-001</span><span class="fragment-status status-learning">● Learning</span></div><h2 class="fragment-title">Certifications</h2><p class="fragment-desc" data-en="Credentials in progress and completed. Building the paper trail to match the skills." data-es="Credenciales en progreso y completadas. Construyendo el respaldo que acompañe las habilidades.">Credentials in progress and completed. Building the paper trail to match the skills.</p><ul class="cert-list"><li><span class="cert-dot earned" aria-hidden="true"></span><span class="cert-name">Linux Essentials</span><span class="cert-badge badge-earned">Earned</span></li><li><span class="cert-dot pending" aria-hidden="true"></span><span class="cert-name">Google AI Professional Certificate</span><span class="cert-badge badge-pending">Course Done, Exam Pending</span></li><li><span class="cert-dot pending" aria-hidden="true"></span><span class="cert-name">PCAP™ – Certified Associate Python Programmer</span><span class="cert-badge badge-pending">In Progress</span></li><li><span class="cert-dot pending" aria-hidden="true"></span><span class="cert-name">GCP Cloud Engineering</span><span class="cert-badge badge-pending">In Progress</span></li><li><span class="cert-dot pending" aria-hidden="true"></span><span class="cert-name">GCP Generative AI</span><span class="cert-badge badge-pending">In Progress</span></li></ul></article></div></div>
 
@@ -305,113 +285,116 @@
             <div id="projects-container">
                 <div id="main-categories" class="category-view">
                     <div class="fragments">
+                        <!-- Alfa Anónimo -->
                         <article class="fragment fragment-alfa" onclick="window.open('https://alfaanonimo.com','_blank')">
                             <div class="fragment-header">
                                 <span class="fragment-id">PROJECT-AA-01</span>
                                 <span class="fragment-status status-live">● Live</span>
                             </div>
                             <h2 class="fragment-title">Alfa Anónimo</h2>
-                            <p class="fragment-desc" data-en="Full e-commerce platform. TikTok to checkout. Built for a real client with a real business. Learned what it takes to ship something that actually works — not just code, but a solution that people rely on." data-es="Plataforma de e-commerce completa. De TikTok al checkout. Construida para un cliente real con un negocio real. Aprendí lo que se necesita para lanzar algo que realmente funciona — no solo código, sino una solución en la que la gente confía.">Full e-commerce platform. TikTok to checkout. Built for a real client with a real business. Learned what it takes to ship something that actually works — not just code, but a solution that people rely on.</p>
+                            <p class="fragment-desc" data-en="Built a platform for selling courses. Social media to checkout. Learned about payments, user experience, and what it takes to ship something that actually helps people grow." data-es="Construí una plataforma para vender cursos. De redes sociales al checkout. Aprendí sobre pagos, experiencia de usuario, y lo que se necesita para lanzar algo que realmente ayuda a las personas a crecer.">Built a platform for selling courses. Social media to checkout. Learned about payments, user experience, and what it takes to ship something that actually helps people grow.</p>
                             <div class="fragment-tags">
                                 <span class="tag">Web Platform</span>
                                 <span class="tag">SMB</span>
-                                <span class="tag">Video</span>
-                                <span class="tag">Conversion</span>
+                                <span class="tag">Multi-tool</span>
                             </div>
-                            <a href="https://alfaanonimo.com" target="_blank" rel="noopener noreferrer" class="project-btn btn-alfa">Open Project →</a>
+                            <a href="https://alfaanonimo.com" target="_blank" rel="noopener noreferrer" class="project-btn btn-alfa">Open Project</a>
                         </article>
 
+                        <!-- Retro-Game Rhapsody -->
                         <article class="fragment fragment-pi" onclick="window.open('https://github.com/MrsOri','_blank')">
                             <div class="fragment-header">
                                 <span class="fragment-id">PROJECT-RPI-02</span>
-                                <span class="fragment-status status-experiment">● Experiment</span>
+                                <span class="fragment-status status-experiment-cyan">● Experiment</span>
                             </div>
                             <h2 class="fragment-title">Retro-Game Rhapsody</h2>
-                            <p class="fragment-desc" data-en="Raspberry Pi + RetroPie. Turned a tiny board into a retro console. A work in progress — learning about hardware, power management, and thermal design with every iteration. v2 is already in the works." data-es="Raspberry Pi + RetroPie. Convertí una placa diminuta en una consola retro. Un trabajo en progreso — aprendiendo sobre hardware, gestión de energía y diseño térmico con cada iteración. La v2 ya está en camino.">Raspberry Pi + RetroPie. Turned a tiny board into a retro console. A work in progress — learning about hardware, power management, and thermal design with every iteration. v2 is already in the works.</p>
+                            <p class="fragment-desc" data-en="Turned a Raspberry Pi into a retro gaming console. Learned about hardware, emulation, power, and heat." data-es="Convertí una Raspberry Pi en una consola de juegos retro. Aprendí sobre hardware, emulación, energía y temperatura.">Turned a Raspberry Pi into a retro gaming console. Learned about hardware, emulation, power, and heat.</p>
                             <div class="fragment-tags" style="margin-top:15px;">
                                 <span class="tag">Raspberry Pi</span>
-                                <span class="tag">RetroPie</span>
                                 <span class="tag">Linux</span>
                                 <span class="tag">Hardware</span>
                             </div>
-                            <a href="https://github.com/MrsOri" target="_blank" rel="noopener noreferrer" class="project-btn btn-pi">Open Project →</a>
+                            <a href="https://github.com/MrsOri" target="_blank" rel="noopener noreferrer" class="project-btn btn-pi">Open Project</a>
                         </article>
 
+                        <!-- Cloud Tinkering -->
                         <div id="aws-category" class="category-view">
                             <article class="fragment fragment-aws">
                                 <div class="fragment-header">
                                     <span class="fragment-id">PROJECT-AWS-03</span>
-                                    <span class="fragment-status status-terminated">● Terminated</span>
+                                    <span class="fragment-status status-completed">● Completed</span>
                                 </div>
                                 <h2 class="fragment-title">Cloud Tinkering</h2>
-                                <p class="fragment-desc" data-en="A collection of AWS experiments. Learning the cloud by building real things — one service at a time. No certifications yet, just hands-on experience and curiosity." data-es="Una colección de experimentos en AWS. Aprendiendo la nube construyendo cosas reales — un servicio a la vez. Sin certificaciones todavía, solo experiencia práctica y curiosidad.">A collection of AWS experiments. Learning the cloud by building real things — one service at a time. No certifications yet, just hands-on experience and curiosity.</p>
+                                <p class="fragment-desc" data-en="Cloud experiments across different providers. Learned about infrastructure by doing and testing." data-es="Experimentos en la nube con diferentes proveedores. Aprendí sobre infraestructura haciendo y probando.">Cloud experiments across different providers. Learned about infrastructure by doing and testing.</p>
                                 <div class="fragment-tags" style="margin-top:18px;">
                                     <span class="tag">AWS</span>
-                                    <span class="tag">S3</span>
-                                    <span class="tag">Static Hosting</span>
-                                    <span class="tag">Cloud</span>
-                                    <span class="tag">Learning</span>
+                                    <span class="tag">GCP</span>
+                                    <span class="tag">Azure</span>
                                 </div>
-                                <a href="#" onclick="showDetail('aws'); return false;" class="project-btn btn-aws">View All AWS Projects →</a>
+                                <a href="#" onclick="showDetail('aws'); return false;" class="project-btn btn-aws">View All Projects</a>
                             </article>
                         </div>
 
+                        <!-- Sentinel Operations -->
                         <div id="cyber-category" class="category-view">
                             <article class="fragment fragment-meta" style="border-left-color: var(--neon-pink);">
                                 <div class="fragment-header">
                                     <span class="fragment-id">PROJECT-CYBER-01</span>
-                                    <span class="fragment-status" style="color: var(--neon-pink); border-color: var(--neon-pink); box-shadow: 0 0 10px rgba(255,45,149,.2);">● Experiment</span>
+                                    <span class="fragment-status status-experiment-pink">● Experiment</span>
                                 </div>
-                                <h2 class="fragment-title" style="color: #f0e0ff;">Cybersecurity Lab</h2>
-                                <p class="fragment-desc" data-en="Building a home lab to understand security from the inside out. Network monitoring, threat detection, and digital forensics — one tool at a time. Every setup teaches me something new about how systems break and how to defend them." data-es="Construyendo un laboratorio casero para entender la seguridad desde dentro. Monitoreo de red, detección de amenazas y forensia digital — una herramienta a la vez. Cada configuración me enseña algo nuevo sobre cómo se rompen los sistemas y cómo defenderlos.">Building a home lab to understand security from the inside out. Network monitoring, threat detection, and digital forensics — one tool at a time. Every setup teaches me something new about how systems break and how to defend them.</p>
+                                <h2 class="fragment-title" style="color: #f0e0ff;">Sentinel Operations</h2>
+                                <p class="fragment-desc" data-en="I wanted to understand how systems get hacked. That's why I created a safe environment to test, watch, and rebuild." data-es="Quería entender cómo hackean los sistemas. Por eso creé un entorno seguro para probar, observar y reconstruir.">I wanted to understand how systems get hacked. That's why I created a safe environment to test, watch, and rebuild.</p>
                                 <div class="fragment-tags" style="margin-top:18px;">
-                                    <span class="tag" style="border-color: var(--neon-pink); color: var(--neon-pink);">Security</span>
-                                    <span class="tag" style="border-color: var(--neon-purple); color: var(--neon-purple);">SOC</span>
-                                    <span class="tag" style="border-color: var(--neon-cyan); color: var(--neon-cyan);">Forensics</span>
-                                    <span class="tag">Network</span>
-                                    <span class="tag">Home Lab</span>
+                                    <span class="tag">AI Security</span>
+                                    <span class="tag">Purple Team</span>
+                                    <span class="tag">Cloud Security</span>
                                 </div>
-                                <a href="#" onclick="showDetail('cyber'); return false;" class="project-btn btn-cyber">Learn More →</a>
+                                <a href="#" onclick="showDetail('cyber'); return false;" class="project-btn btn-cyber">Learn More</a>
                             </article>
                         </div>
 
+                        <!-- Engine & Ignition Operations -->
                         <div id="code-category" class="category-view">
-                            <article class="fragment" style="border-left: 3px solid var(--neon-green);">
+                            <article class="fragment" style="border-left: 3px solid var(--neon-yellow);">
                                 <div class="fragment-header">
-                                    <span class="fragment-id">CODE-SCRP-01</span>
-                                    <span class="fragment-status" style="color: var(--neon-green); border-color: var(--neon-green); box-shadow: 0 0 10px rgba(74,222,128,.2);">● Active</span>
+                                    <span class="fragment-id">PROJECT-CODESCRP-01</span>
+                                    <span class="fragment-status status-active-yellow">● Active</span>
                                 </div>
-                                <h2 class="fragment-title" style="color: #f0e0ff;">Coding & Scripting</h2>
-                                <p class="fragment-desc" data-en="Python scripts, automation, and orchestration. Building tools that make systems work together — and life easier. From small scripts to full automation stacks, I write code that saves time and reduces friction." data-es="Scripts en Python, automatización y orquestación. Construyendo herramientas que hacen que los sistemas trabajen juntos — y la vida más fácil. Desde pequeños scripts hasta pilas de automatización completas, escribo código que ahorra tiempo y reduce la fricción.">Python scripts, automation, and orchestration. Building tools that make systems work together — and life easier. From small scripts to full automation stacks, I write code that saves time and reduces friction.</p>
+                                <h2 class="fragment-title" style="color: #f0e0ff;">Engine & Ignition Operations</h2>
+                                <p class="fragment-desc" data-en="Trying Python scripts, automation, and tools that connect systems applied with AI. Less manual work, more time for the important stuff: gaming and listening to music." data-es="Probando scripts en Python, automatización y herramientas que conectan sistemas aplicadas con IA. Menos trabajo manual, más tiempo para lo importante: jugar y escuchar música.">Trying Python scripts, automation, and tools that connect systems applied with AI. Less manual work, more time for the important stuff: gaming and listening to music.</p>
                                 <div class="fragment-tags" style="margin-top:18px;">
-                                    <span class="tag" style="border-color: var(--neon-yellow); color: var(--neon-yellow);">Orchestration</span>
-                                    <span class="tag" style="border-color: var(--neon-green); color: var(--neon-green);">Python</span>
+                                    <span class="tag">Orchestration</span>
+                                    <span class="tag">Coding</span>
                                     <span class="tag">Automation</span>
                                     <span class="tag">Scripting</span>
-                                    <span class="tag">DevOps</span>
                                 </div>
-                                <a href="#" onclick="showDetail('code'); return false;" class="project-btn btn-code">View All Code Projects →</a>
+                                <a href="#" onclick="showDetail('code'); return false;" class="project-btn btn-code">View All Projects</a>
                             </article>
                         </div>
 
-                        <!-- Proyecto Secreto con efecto scramble restaurado -->
-                        <article class="fragment fragment-meta">
+                        <!-- Proyecto Secreto -->
+                        <article class="fragment fragment-meta" style="border-left: 3px solid var(--neon-green) !important; border-left-color: var(--neon-green) !important; box-shadow: 0 30px 80px rgba(0,0,0,.6), 0 0 50px rgba(74,222,128,.15), inset 0 0 30px rgba(74,222,128,.03) !important;">
                             <div class="fragment-header">
-                                <span class="fragment-id">PROJECT-GHOST-04</span>
-                                <span class="fragment-status status-stealth">● Stealth</span>
+                                <span class="fragment-id" style="color: var(--neon-green);">PROJECT-GHOST-04</span>
+                                <span class="fragment-status status-stealth-green">● Stealth</span>
                             </div>
-                            <h2 class="fragment-title scramble-text">■■■■■■■■■■</h2>
-                            <p class="fragment-desc" data-en="Something new. Currently in stealth. Not ready for public eyes — but it's in motion." data-es="Algo nuevo. Actualmente en modo sigiloso. No está listo para ojos públicos — pero está en marcha.">Something new. Currently in stealth. Not ready for public eyes — but it's in motion.</p>
-                            <div class="locked-indicator"><span class="locked-icon" aria-hidden="true"></span>ENCRYPTED — ASK DIRECTLY</div>
+                            <h2 class="fragment-title scramble-text" style="color: var(--neon-green); text-shadow: 0 0 20px rgba(74,222,128,.4);">■■■■■■■■■■</h2>
+                            <p class="fragment-desc" data-en="Something new is in the works. Can't say more yet, but it's going to be interesting. Stick around." data-es="Algo nuevo está en camino. No puedo decir más todavía, pero va a ser interesante. Quédate cerca.">Something new is in the works. Can't say more yet, but it's going to be interesting. Stick around.</p>
+                            <div class="locked-indicator" style="color: var(--neon-green); text-shadow: 0 0 15px rgba(74,222,128,.5);">
+                                <span class="locked-icon" style="border-color: var(--neon-green); box-shadow: 0 0 10px rgba(74,222,128,.6);"></span>
+                                ENCRYPTED — ASK DIRECTLY
+                            </div>
                         </article>
                     </div>
                 </div>
 
+                <!-- AWS DETAIL -->
                 <div id="aws-detail" class="detail-view">
                     <button class="back-btn" onclick="showCategory('aws')" style="margin-bottom:20px;">← Back to Projects</button>
                     <div class="fragments" style="gap:30px;">
-                        <h2 style="color:var(--neon-blue);">☁️ AWS Projects</h2>
-                        <p style="color:#9080b0; text-align:center; margin-bottom:20px;">A collection of my AWS experiments and builds.</p>
+                        <h2 style="color:var(--neon-blue);">Cloud Projects</h2>
+                        <p style="color:#9080b0; text-align:center; margin-bottom:20px;">Experiments across different cloud providers.</p>
+
                         <article class="fragment" style="border-left:3px solid var(--neon-blue);">
                             <div class="fragment-header">
                                 <span class="fragment-id" style="color:var(--neon-blue);">S3-001</span>
@@ -420,10 +403,11 @@
                             <h3 style="color:#b0c8d8;">Hosting a Static Website in S3</h3>
                             <p style="color:#9080b0; font-size:.9rem; line-height:1.7;">Setup a static site using S3, configured public access, and learned about ACLs and permissions the hard way.</p>
                             <div style="margin-top:15px; display:flex; gap:10px; flex-wrap:wrap;">
-                                <a href="https://github.com/AstrointheCloud/Hosting-a-website-in-S3" target="_blank" class="tag tag-link" style="border-color:var(--neon-blue); color:var(--neon-blue);">🔗 Repo</a>
-                                <a href="https://github.com/AstrointheCloud/Hosting-a-website-in-S3" target="_blank" class="tag tag-link" style="border-color:var(--neon-blue); color:var(--neon-blue);">🌐 Live Site</a>
+                                <a href="https://github.com/AstrointheCloud/Hosting-a-website-in-S3" target="_blank" class="tag tag-link" style="border-color:var(--neon-blue); color:var(--neon-blue);">Repo</a>
+                                <a href="https://github.com/AstrointheCloud/Hosting-a-website-in-S3" target="_blank" class="tag tag-link" style="border-color:var(--neon-blue); color:var(--neon-blue);">Live Site</a>
                             </div>
                         </article>
+
                         <article class="fragment" style="border-left:3px solid rgba(255,255,255,.06); opacity:.4;">
                             <div class="fragment-header">
                                 <span class="fragment-id" style="color:#605070;">EC2-001</span>
@@ -432,6 +416,7 @@
                             <h3 style="color:#605070;">EC2 Instance Lab</h3>
                             <p style="color:#605070; font-size:.9rem; line-height:1.7;">Deploying a web server on EC2, security groups, and SSH access.</p>
                         </article>
+
                         <article class="fragment" style="border-left:3px solid rgba(255,255,255,.06); opacity:.4;">
                             <div class="fragment-header">
                                 <span class="fragment-id" style="color:#605070;">IAM-001</span>
@@ -440,15 +425,18 @@
                             <h3 style="color:#605070;">IAM Policy Experiments</h3>
                             <p style="color:#605070; font-size:.9rem; line-height:1.7;">Understanding least privilege, roles, and policies.</p>
                         </article>
-                        <div style="text-align:center; margin-top:10px; opacity:.3; font-size:.6rem; color:#605070; letter-spacing:.1em;">MORE AWS EXPERIMENTS COMING SOON</div>
+
+                        <div style="text-align:center; margin-top:10px; opacity:.3; font-size:.6rem; color:#605070; letter-spacing:.1em;">MORE EXPERIMENTS COMING SOON</div>
                     </div>
                 </div>
 
+                <!-- SENTINEL DETAIL -->
                 <div id="cyber-detail" class="detail-view">
                     <button class="back-btn" onclick="showCategory('cyber')" style="margin-bottom:20px;">← Back to Projects</button>
                     <div class="fragments" style="gap:30px;">
-                        <h2 style="color:var(--neon-pink);">🔐 Cybersecurity Lab</h2>
-                        <p style="color:#9080b0; text-align:center; margin-bottom:20px;">Building a home lab to understand security from the inside out.</p>
+                        <h2 style="color:var(--neon-pink);">Sentinel Operations</h2>
+                        <p style="color:#9080b0; text-align:center; margin-bottom:20px;">Building a safe environment to test, watch, and rebuild.</p>
+
                         <article class="fragment" style="border-left:3px solid var(--neon-pink);">
                             <div class="fragment-header">
                                 <span class="fragment-id" style="color:var(--neon-pink);">SOC-001</span>
@@ -457,9 +445,10 @@
                             <h3 style="color:#b0c8d8;">Building a SOC</h3>
                             <p style="color:#9080b0; font-size:.9rem; line-height:1.7;">Setting up a Security Operations Center lab with ELK stack. Log analysis, alerting, and incident response.</p>
                             <div style="margin-top:15px; display:flex; gap:10px; flex-wrap:wrap;">
-                                <a href="#" class="tag tag-link" style="border-color:var(--neon-pink); color:var(--neon-pink);">📄 Coming Soon</a>
+                                <a href="#" class="tag tag-link" style="border-color:var(--neon-pink); color:var(--neon-pink);">Coming Soon</a>
                             </div>
                         </article>
+
                         <article class="fragment" style="border-left:3px solid var(--neon-purple);">
                             <div class="fragment-header">
                                 <span class="fragment-id" style="color:var(--neon-purple);">FOR-001</span>
@@ -468,9 +457,10 @@
                             <h3 style="color:#b0c8d8;">Digital Forensics</h3>
                             <p style="color:#9080b0; font-size:.9rem; line-height:1.7;">Learning forensic investigation techniques. Disk imaging, memory analysis, and timeline reconstruction.</p>
                             <div style="margin-top:15px; display:flex; gap:10px; flex-wrap:wrap;">
-                                <a href="#" class="tag tag-link" style="border-color:var(--neon-purple); color:var(--neon-purple);">📄 Coming Soon</a>
+                                <a href="#" class="tag tag-link" style="border-color:var(--neon-purple); color:var(--neon-purple);">Coming Soon</a>
                             </div>
                         </article>
+
                         <article class="fragment" style="border-left:3px solid var(--neon-cyan);">
                             <div class="fragment-header">
                                 <span class="fragment-id" style="color:var(--neon-cyan);">NET-001</span>
@@ -479,18 +469,21 @@
                             <h3 style="color:#b0c8d8;">Network Security</h3>
                             <p style="color:#9080b0; font-size:.9rem; line-height:1.7;">Configuring firewalls, IDS/IPS, and packet analysis with Wireshark and Snort.</p>
                             <div style="margin-top:15px; display:flex; gap:10px; flex-wrap:wrap;">
-                                <a href="#" class="tag tag-link" style="border-color:var(--neon-cyan); color:var(--neon-cyan);">📄 Coming Soon</a>
+                                <a href="#" class="tag tag-link" style="border-color:var(--neon-cyan); color:var(--neon-cyan);">Coming Soon</a>
                             </div>
                         </article>
-                        <div style="text-align:center; margin-top:10px; opacity:.3; font-size:.6rem; color:#605070; letter-spacing:.1em;">MORE CYBERSECURITY EXPERIMENTS COMING SOON</div>
+
+                        <div style="text-align:center; margin-top:10px; opacity:.3; font-size:.6rem; color:#605070; letter-spacing:.1em;">MORE EXPERIMENTS COMING SOON</div>
                     </div>
                 </div>
 
+                <!-- ENGINE & IGNITION DETAIL -->
                 <div id="code-detail" class="detail-view">
                     <button class="back-btn" onclick="showCategory('code')" style="margin-bottom:20px;">← Back to Projects</button>
                     <div class="fragments" style="gap:30px;">
-                        <h2 style="color:var(--neon-green);">💻 Coding & Scripting</h2>
-                        <p style="color:#9080b0; text-align:center; margin-bottom:20px;">Python scripts, automation, and orchestration projects.</p>
+                        <h2 style="color:var(--neon-yellow);">Engine & Ignition Operations</h2>
+                        <p style="color:#9080b0; text-align:center; margin-bottom:20px;">Python scripts, automation, and tools that connect systems applied with AI.</p>
+
                         <article class="fragment" style="border-left:3px solid var(--neon-yellow);">
                             <div class="fragment-header">
                                 <span class="fragment-id" style="color:var(--neon-yellow);">ORC-001</span>
@@ -499,9 +492,10 @@
                             <h3 style="color:#b0c8d8;">Orchestration Stack</h3>
                             <p style="color:#9080b0; font-size:.9rem; line-height:1.7;">Automating workflows with Python, Caddy, Tailscale, n8n, and Telegram. Connecting services so they work together seamlessly.</p>
                             <div style="margin-top:15px; display:flex; gap:10px; flex-wrap:wrap;">
-                                <a href="#" class="tag tag-link" style="border-color:var(--neon-yellow); color:var(--neon-yellow);">🔗 Coming Soon</a>
+                                <a href="#" class="tag tag-link" style="border-color:var(--neon-yellow); color:var(--neon-yellow);">Coming Soon</a>
                             </div>
                         </article>
+
                         <article class="fragment" style="border-left:3px solid var(--neon-green);">
                             <div class="fragment-header">
                                 <span class="fragment-id" style="color:var(--neon-green);">AUTO-001</span>
@@ -510,20 +504,21 @@
                             <h3 style="color:#b0c8d8;">Automation Scripts</h3>
                             <p style="color:#9080b0; font-size:.9rem; line-height:1.7;">A conglomerate of Python scripts for daily tasks. File organization, data parsing, system automation, and more.</p>
                             <div style="margin-top:15px; display:flex; gap:10px; flex-wrap:wrap;">
-                                <a href="#" class="tag tag-link" style="border-color:var(--neon-green); color:var(--neon-green);">🔗 Coming Soon</a>
+                                <a href="#" class="tag tag-link" style="border-color:var(--neon-green); color:var(--neon-green);">Coming Soon</a>
                             </div>
                         </article>
-                        <div style="text-align:center; margin-top:10px; opacity:.3; font-size:.6rem; color:#605070; letter-spacing:.1em;">MORE CODING EXPERIMENTS COMING SOON</div>
+
+                        <div style="text-align:center; margin-top:10px; opacity:.3; font-size:.6rem; color:#605070; letter-spacing:.1em;">MORE EXPERIMENTS COMING SOON</div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="content-section" id="section-setup" role="tabpanel"><button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button><div class="fragments"><article class="fragment fragment-setup-combined"><div class="fragment-header"><span class="fragment-id">BHM-PC-001</span><span class="fragment-status status-active">● Active</span></div><h2 class="fragment-title">My Tools & Vibes</h2><div class="setup-grid"><div class="setup-column"><div class="setup-subtitle rig">◈ THE RIG</div><p class="fragment-desc" style="font-size:.8rem;margin-bottom:10px;">Custom-built battlestation.</p><ul class="spec-list"><li><span>CPU</span><span>Intel I7-14700F</span></li><li><span>GPU</span><span>RTX 4060 8GB</span></li><li><span>RAM</span><span>32GB</span></li><li><span>Storage</span><span>1TB NVMe + 2TB SSD</span></li><li><span>OS</span><span>Win 11 / Ubuntu</span></li></ul></div><div class="setup-column"><div class="setup-subtitle lab">◈ THE LAB</div><p class="fragment-desc" style="font-size:.8rem;margin-bottom:10px;">MacBook Pro mobile center.</p><ul class="spec-list"><li><span>Model</span><span>MacBook Pro</span></li><li><span>RAM</span><span>48GB Unified</span></li><li><span>Storage</span><span>1TB SSD</span></li><li><span>OS</span><span>macOS</span></li></ul></div></div><p class="setup-footer-text" data-en="Windows on the desk. macOS on the move. Linux on both. Three operating systems, one brain." data-es="Windows en el escritorio. macOS en movimiento. Linux en ambos. Tres sistemas operativos, un cerebro.">Windows on the desk. macOS on the move. Linux on both. Three operating systems, one brain.</p></article><article class="fragment fragment-music"><div class="fragment-header"><span class="fragment-id">MUS-STW-01</span><span class="fragment-status status-playing">● Playing</span></div><h2 class="fragment-title">Sound System</h2><p class="fragment-desc" data-en="Every project has its own soundtrack. Code runs on electronic. Late nights need lo-fi. Hardware work demands rock. The right music at the right time." data-es="Cada proyecto tiene su propia banda sonora. El código corre con electrónica. Las madrugadas necesitan lo-fi. El hardware exige rock. La música correcta en el momento correcto.">Every project has its own soundtrack. Code runs on electronic. Late nights need lo-fi. Hardware work demands rock. The right music at the right time.</p><div class="music-visual" aria-hidden="true"><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div></div><div class="fragment-tags" style="margin-top:18px;"><span class="tag">Electronic</span><span class="tag">Lo-Fi</span><span class="tag">Rock</span><span class="tag">Synthwave</span></div><a href="https://soundcloud.com/mariana-lugo-221507793/sets/mrs-oris-melodies" target="_blank" rel="noopener noreferrer" class="playlist-link">🎧 Currently playing: Mrs Ori's Melodies ↗</a></article></div></div>
+        <div class="content-section" id="section-setup" role="tabpanel"><button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button><div class="fragments"><article class="fragment fragment-setup-combined"><div class="fragment-header"><span class="fragment-id">BHM-PC-001</span><span class="fragment-status status-active">● Active</span></div><h2 class="fragment-title">My Tools & Vibes</h2><div class="setup-grid"><div class="setup-column"><div class="setup-subtitle rig">The Rig</div><p class="fragment-desc" style="font-size:.8rem;margin-bottom:10px;">Custom-built battlestation.</p><ul class="spec-list"><li><span>CPU</span><span>Intel I7-14700F</span></li><li><span>GPU</span><span>RTX 4060 8GB</span></li><li><span>RAM</span><span>32GB</span></li><li><span>Storage</span><span>1TB NVMe + 2TB SSD</span></li><li><span>OS</span><span>Win 11 / Ubuntu</span></li></ul></div><div class="setup-column"><div class="setup-subtitle lab">The Lab</div><p class="fragment-desc" style="font-size:.8rem;margin-bottom:10px;">MacBook Pro mobile center.</p><ul class="spec-list"><li><span>Model</span><span>MacBook Pro</span></li><li><span>RAM</span><span>48GB Unified</span></li><li><span>Storage</span><span>1TB SSD</span></li><li><span>OS</span><span>macOS</span></li></ul></div></div><p class="setup-footer-text" data-en="Windows on the desk. macOS on the move. Linux on both. Three operating systems, one brain." data-es="Windows en el escritorio. macOS en movimiento. Linux en ambos. Tres sistemas operativos, un cerebro.">Windows on the desk. macOS on the move. Linux on both. Three operating systems, one brain.</p></article><article class="fragment fragment-music"><div class="fragment-header"><span class="fragment-id">MUS-STW-01</span><span class="fragment-status status-playing">● Playing</span></div><h2 class="fragment-title">Sound System</h2><p class="fragment-desc" data-en="Every project has its own soundtrack. Code runs on electronic. Late nights need lo-fi. Hardware work demands rock. The right music at the right time." data-es="Cada proyecto tiene su propia banda sonora. El código corre con electrónica. Las madrugadas necesitan lo-fi. El hardware exige rock. La música correcta en el momento correcto.">Every project has its own soundtrack. Code runs on electronic. Late nights need lo-fi. Hardware work demands rock. The right music at the right time.</p><div class="music-visual" aria-hidden="true"><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div></div><div class="fragment-tags" style="margin-top:18px;"><span class="tag">Electronic</span><span class="tag">Lo-Fi</span><span class="tag">Rock</span><span class="tag">Synthwave</span></div><a href="https://soundcloud.com/mariana-lugo-221507793/sets/mrs-oris-melodies" target="_blank" rel="noopener noreferrer" class="playlist-link">Currently playing: Mrs Ori's Melodies</a></article></div></div>
 
-        <div class="content-section" id="section-blog" role="tabpanel"><button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button><div class="fragments"><article class="fragment fragment-blog"><div class="fragment-header"><span class="fragment-id">TECH-BLOG-001</span><span class="fragment-status status-drafting">● Drafting</span></div><h2 class="fragment-title">Sketchbook</h2><p class="fragment-desc" data-en="Sometimes I write things down. What I'm building, what I'm learning, what's on my mind. No pressure, no schedule. Just me, my thoughts, and synthwave or EDM on my headphones." data-es="A veces escribo cosas. Lo que construyo, lo que aprendo, lo que tengo en mente. Sin presión, sin horario. Solo yo, mis pensamientos, y synthwave o EDM en mis audífonos.">Sometimes I write things down. What I'm building, what I'm learning, what's on my mind. No pressure, no schedule. Just me, my thoughts, and synthwave or EDM on my headphones.</p><div class="fragment-tags"><span class="tag">Writing</span><span class="tag">Dev Logs</span><span class="tag">Soon™</span></div></article></div></div>
+        <div class="content-section" id="section-blog" role="tabpanel"><button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button><div class="fragments"><article class="fragment fragment-blog"><div class="fragment-header"><span class="fragment-id">TECH-BLOG-001</span><span class="fragment-status status-drafting">● Drafting</span></div><h2 class="fragment-title">Sketchbook</h2><p class="fragment-desc" data-en="Sometimes I write things down. What I'm building, what I'm learning, what's on my mind. No pressure, no schedule. Just me, my thoughts, and synthwave or EDM on my headphones." data-es="A veces escribo cosas. Lo que construyo, lo que aprendo, lo que tengo en mente. Sin presión, sin horario. Solo yo, mis pensamientos, y synthwave o EDM en mis audífonos.">Sometimes I write things down. What I'm building, what I'm learning, what's on my mind. No pressure, no schedule. Just me, my thoughts, and synthwave or EDM on my headphones.</p><div class="fragment-tags"><span class="tag">Writing</span><span class="tag">Dev Logs</span><span class="tag">Soon</span></div></article></div></div>
 
-        <div class="content-section" id="section-contact" role="tabpanel"><button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button><div class="fragments"><article class="fragment fragment-about"><div class="fragment-header"><span class="fragment-id">COFFEE-TIME-01</span><span class="fragment-status status-transmitting">● Transmitting</span></div><h2 class="fragment-title">Let's Connect</h2><p class="fragment-desc">Find me here.</p><div class="social-links"><a href="https://youtube.com/@AstroIntheCloud" target="_blank" rel="noopener noreferrer" class="tag tag-link">🎥 YouTube</a><a href="https://github.com/AstrointheCloud" target="_blank" rel="noopener noreferrer" class="tag tag-link">🔗 GitHub</a><a href="https://discord.gg/emE7ewSTj" target="_blank" rel="noopener noreferrer" class="tag tag-link">💬 Discord</a><a href="https://www.linkedin.com/in/mariana-lugo/" target="_blank" rel="noopener noreferrer" class="tag tag-link">💼 LinkedIn</a></div></article></div></div>
+        <div class="content-section" id="section-contact" role="tabpanel"><button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button><div class="fragments"><article class="fragment fragment-about"><div class="fragment-header"><span class="fragment-id">COFFEE-TIME-01</span><span class="fragment-status status-transmitting">● Transmitting</span></div><h2 class="fragment-title">Let's Connect</h2><p class="fragment-desc">Find me here.</p><div class="social-links"><a href="https://youtube.com/@AstroIntheCloud" target="_blank" rel="noopener noreferrer" class="tag tag-link">YouTube</a><a href="https://github.com/AstrointheCloud" target="_blank" rel="noopener noreferrer" class="tag tag-link">GitHub</a><a href="https://discord.gg/emE7ewSTj" target="_blank" rel="noopener noreferrer" class="tag tag-link">Discord</a><a href="https://www.linkedin.com/in/mariana-lugo/" target="_blank" rel="noopener noreferrer" class="tag tag-link">LinkedIn</a></div></article></div></div>
 
         <footer class="footer"><p>Building things, one project at a time.</p></footer>
     </main>
@@ -548,7 +543,7 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        // Efecto Scramble para el proyecto secreto (JavaScript)
+        // Efecto Scramble
         (function() {
             const st = document.querySelector('.scramble-text');
             if (st) {
@@ -556,7 +551,6 @@
                 const chars = '!@#$%^&*()_+-=[]{}|;:,.<>?/~`¢£¥€';
                 let intervalId;
                 const fragment = st.closest('.fragment-meta');
-                
                 if (fragment) {
                     fragment.addEventListener('mouseenter', function() {
                         let i = 0;
@@ -572,7 +566,6 @@
                             }
                         }, 40);
                     });
-                    
                     fragment.addEventListener('mouseleave', function() {
                         clearInterval(intervalId);
                         st.textContent = original;
@@ -597,7 +590,7 @@
         function switchLang(l){cl=l;bE.classList.toggle('active',l==='en');bS.classList.toggle('active',l==='es');bE.setAttribute('aria-pressed',l==='en');bS.setAttribute('aria-pressed',l==='es');document.querySelectorAll('[data-en][data-es]').forEach(el=>{const t=el.getAttribute('data-'+l);if(t!==null)el.textContent=t})}
         bE.addEventListener('click',()=>switchLang('en'));bS.addEventListener('click',()=>switchLang('es'));
         document.querySelectorAll('.fragment').forEach(f=>{f.addEventListener('click',function(e){if(e.target.closest('a'))return;this.style.transform='scale(.97)';setTimeout(()=>{this.style.transform=''},150);const fl=document.createElement('div');fl.style.cssText='position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:300;background:rgba(255,255,255,.03);transition:opacity .6s;';document.body.appendChild(fl);setTimeout(()=>{fl.style.opacity='0';setTimeout(()=>fl.remove(),600)},30)})});
-        console.log("🚀 Astro in the Cloud — Ready for launch.");
+        console.log("Astro in the Cloud — Ready for launch.");
         })();
     </script>
 </body>
