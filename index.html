@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <title>Astro in the Cloud</title>
-    <meta name="description" content="Astro Sori — Building things. Websites, hardware, cloud. AI Security Architect in progress.">
+    <title>Astro in the Cloud — Building Metamorph</title>
+    <meta name="description" content="Astro in the Cloud — Building Metamorph. Portfolio of projects in cloud, security, and automation.">
     <meta property="og:title" content="Astro in the Cloud">
-    <meta property="og:description" content="Building things, one project at a time.">
+    <meta property="og:description" content="Building things, evolving constantly.">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#0d0221">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
+        /* ===== TODO TU CSS AQUÍ (igual que antes) ===== */
         *{margin:0;padding:0;box-sizing:border-box}
         html{width:100%;overflow-x:hidden}
         body{width:100%;max-width:100vw;overflow-x:hidden;background:var(--bg-deep);color:var(--text);font-family:var(--font-mono);min-height:100vh;cursor:crosshair;display:flex;align-items:center;justify-content:center}
@@ -277,11 +278,52 @@
             </div>
         </section>
 
-        <div class="content-section" id="section-about" role="tabpanel"><button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button><div class="fragments"><article class="fragment fragment-about"><div class="fragment-header"><span class="fragment-id">PPF-00-000</span><span class="fragment-status status-transmitting">● Transmitting</span></div><h2 class="fragment-title">About Me</h2><p class="fragment-desc" data-en="I'm a builder. Websites, hardware, everything in between. I go where the ideas and curiosity take me. If something sparks my interest, I dive in and figure it out." data-es="Soy una constructora. Webs, hardware, todo lo que hay en medio. Voy a donde me llevan las ideas y la curiosidad. Si algo despierta mi interés, me sumerjo y lo resuelvo.">I'm a builder. Websites, hardware, everything in between. I go where the ideas and curiosity take me. If something sparks my interest, I dive in and figure it out.</p><div class="social-links"><a href="https://youtube.com/@AstroIntheCloud" target="_blank" rel="noopener noreferrer" class="tag tag-link">YouTube</a><a href="https://github.com/AstrointheCloud" target="_blank" rel="noopener noreferrer" class="tag tag-link">GitHub</a><a href="https://discord.gg/emE7ewSTj" target="_blank" rel="noopener noreferrer" class="tag tag-link">Discord</a><a href="https://www.linkedin.com/in/mariana-lugo/" target="_blank" rel="noopener noreferrer" class="tag tag-link">LinkedIn</a></div></article></div></div>
+        <!-- ===== ABOUT ===== -->
+        <div class="content-section" id="section-about" role="tabpanel">
+            <button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button>
+            <div class="fragments">
+                <article class="fragment fragment-about">
+                    <div class="fragment-header">
+                        <span class="fragment-id">PPF-00-000</span>
+                        <span class="fragment-status status-transmitting">● Transmitting</span>
+                    </div>
+                    <h2 class="fragment-title">About Me</h2>
+                    <p class="fragment-desc" data-en="I'm a builder. Websites, hardware, everything in between. I go where the ideas and curiosity take me. If something sparks my interest, I dive in and figure it out." data-es="Soy una constructora. Webs, hardware, todo lo que hay en medio. Voy a donde me llevan las ideas y la curiosidad. Si algo despierta mi interés, me sumerjo y lo resuelvo.">I'm a builder. Websites, hardware, everything in between. I go where the ideas and curiosity take me. If something sparks my interest, I dive in and figure it out.</p>
+                    <div class="social-links">
+                        <a href="https://youtube.com/@AstroIntheCloud" target="_blank" rel="noopener noreferrer" class="tag tag-link">YouTube</a>
+                        <a href="https://github.com/AstrointheCloud" target="_blank" rel="noopener noreferrer" class="tag tag-link">GitHub</a>
+                        <a href="https://discord.gg/emE7ewSTj" target="_blank" rel="noopener noreferrer" class="tag tag-link">Discord</a>
+                        <a href="https://www.linkedin.com/in/mariana-lugo/" target="_blank" rel="noopener noreferrer" class="tag tag-link">LinkedIn</a>
+                    </div>
+                </article>
+            </div>
+        </div>
 
-        <div class="content-section" id="section-certs" role="tabpanel"><button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button><div class="fragments"><article class="fragment fragment-certs"><div class="fragment-header"><span class="fragment-id">CERT-TECH-001</span><span class="fragment-status status-learning">● Learning</span></div><h2 class="fragment-title">Certifications</h2><p class="fragment-desc" data-en="Credentials in progress and completed. Building the paper trail to match the skills." data-es="Credenciales en progreso y completadas. Construyendo el respaldo que acompañe las habilidades.">Credentials in progress and completed. Building the paper trail to match the skills.</p><ul class="cert-list"><li><span class="cert-dot earned" aria-hidden="true"></span><span class="cert-name">Linux Essentials</span><span class="cert-badge badge-earned">Earned</span></li><li><span class="cert-dot pending" aria-hidden="true"></span><span class="cert-name">Google AI Professional Certificate</span><span class="cert-badge badge-pending">Course Done, Exam Pending</span></li><li><span class="cert-dot pending" aria-hidden="true"></span><span class="cert-name">PCAP™ – Certified Associate Python Programmer</span><span class="cert-badge badge-pending">In Progress</span></li><li><span class="cert-dot pending" aria-hidden="true"></span><span class="cert-name">GCP Cloud Engineering</span><span class="cert-badge badge-pending">In Progress</span></li><li><span class="cert-dot pending" aria-hidden="true"></span><span class="cert-name">GCP Generative AI</span><span class="cert-badge badge-pending">In Progress</span></li></ul></article></div></div>
+        <!-- ===== CERTIFICATIONS ===== -->
+        <div class="content-section" id="section-certs" role="tabpanel">
+            <button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button>
+            <div class="fragments">
+                <article class="fragment fragment-certs">
+                    <div class="fragment-header">
+                        <span class="fragment-id">CERT-TECH-001</span>
+                        <span class="fragment-status status-learning">● Learning</span>
+                    </div>
+                    <h2 class="fragment-title">Certifications</h2>
+                    <p class="fragment-desc" data-en="Credentials in progress and completed. Building the paper trail to match the skills." data-es="Credenciales en progreso y completadas. Construyendo el respaldo que acompañe las habilidades.">Credentials in progress and completed. Building the paper trail to match the skills.</p>
+                    <ul class="cert-list">
+                        <li><span class="cert-dot earned" aria-hidden="true"></span><span class="cert-name">Linux Essentials</span><span class="cert-badge badge-earned">Earned</span></li>
+                        <li><span class="cert-dot pending" aria-hidden="true"></span><span class="cert-name">Google AI Professional Certificate</span><span class="cert-badge badge-pending">Course Done, Exam Pending</span></li>
+                        <li><span class="cert-dot pending" aria-hidden="true"></span><span class="cert-name">PCAP™ – Certified Associate Python Programmer</span><span class="cert-badge badge-pending">In Progress</span></li>
+                        <li><span class="cert-dot pending" aria-hidden="true"></span><span class="cert-name">GCP Cloud Engineering</span><span class="cert-badge badge-pending">In Progress</span></li>
+                        <li><span class="cert-dot pending" aria-hidden="true"></span><span class="cert-name">GCP Generative AI</span><span class="cert-badge badge-pending">In Progress</span></li>
+                    </ul>
+                </article>
+            </div>
+        </div>
 
-        <div class="content-section" id="section-projects" role="tabpanel"><button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button>
+        <!-- ===== PROJECTS ===== -->
+        <div class="content-section" id="section-projects" role="tabpanel">
+            <button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button>
             <div id="projects-container">
                 <div id="main-categories" class="category-view">
                     <div class="fragments">
@@ -388,13 +430,12 @@
                     </div>
                 </div>
 
-                <!-- AWS DETAIL -->
+                <!-- ===== AWS DETAIL ===== -->
                 <div id="aws-detail" class="detail-view">
                     <button class="back-btn" onclick="showCategory('aws')" style="margin-bottom:20px;">← Back to Projects</button>
                     <div class="fragments" style="gap:30px;">
                         <h2 style="color:#f0e0ff;">Cloud Architecture</h2>
                         <p style="color:#9080b0; text-align:center; margin-bottom:20px;">Cloud experiments across different providers. Learned about infrastructure by doing and testing.</p>
-
                         <article class="fragment" style="border-left:3px solid var(--neon-blue);">
                             <div class="fragment-header">
                                 <span class="fragment-id" style="color:var(--neon-blue);">S3-001</span>
@@ -407,7 +448,6 @@
                                 <a href="https://github.com/AstrointheCloud/Hosting-a-website-in-S3" target="_blank" class="tag tag-link" style="border-color:var(--neon-blue); color:var(--neon-blue);">Live Site</a>
                             </div>
                         </article>
-
                         <article class="fragment" style="border-left:3px solid rgba(255,255,255,.06); opacity:.4;">
                             <div class="fragment-header">
                                 <span class="fragment-id" style="color:#605070;">EC2-001</span>
@@ -416,7 +456,6 @@
                             <h3 style="color:#605070;">EC2 Instance Lab</h3>
                             <p style="color:#605070; font-size:.9rem; line-height:1.7;">Deploying a web server on EC2, security groups, and SSH access.</p>
                         </article>
-
                         <article class="fragment" style="border-left:3px solid rgba(255,255,255,.06); opacity:.4;">
                             <div class="fragment-header">
                                 <span class="fragment-id" style="color:#605070;">IAM-001</span>
@@ -425,65 +464,59 @@
                             <h3 style="color:#605070;">IAM Policy Experiments</h3>
                             <p style="color:#605070; font-size:.9rem; line-height:1.7;">Understanding least privilege, roles, and policies.</p>
                         </article>
-
                         <div style="text-align:center; margin-top:10px; opacity:.3; font-size:.6rem; color:#605070; letter-spacing:.1em;">MORE EXPERIMENTS COMING SOON</div>
                     </div>
                 </div>
 
-                <!-- SECOPS & TELEMETRY DETAIL -->
+                <!-- ===== SECOPS DETAIL ===== -->
                 <div id="cyber-detail" class="detail-view">
                     <button class="back-btn" onclick="showCategory('cyber')" style="margin-bottom:20px;">← Back to Projects</button>
                     <div class="fragments" style="gap:30px;">
                         <h2 style="color:#f0e0ff;">SecOps & Telemetry</h2>
                         <p style="color:#9080b0; text-align:center; margin-bottom:20px;">I wanted to understand how systems get hacked. That's why I created a safe environment to test, watch, and rebuild.</p>
-
                         <article class="fragment" style="border-left:3px solid var(--neon-pink);">
                             <div class="fragment-header">
                                 <span class="fragment-id" style="color:var(--neon-pink);">SOC-001</span>
                                 <span class="fragment-status" style="color:#f0c040; border-color:rgba(240,192,64,.4);">In Progress</span>
                             </div>
-                            <h3 style="color:#b0c8d8;">Building a SOC</h3>
+                            <h3 style="color:#b0c8d8;">SOC Lab</h3>
                             <p style="color:#9080b0; font-size:.9rem; line-height:1.7;">Setting up a Security Operations Center lab with ELK stack. Log analysis, alerting, and incident response.</p>
                             <div style="margin-top:15px; display:flex; gap:10px; flex-wrap:wrap;">
                                 <a href="#" class="tag tag-link" style="border-color:var(--neon-pink); color:var(--neon-pink);">Coming Soon</a>
                             </div>
                         </article>
-
                         <article class="fragment" style="border-left:3px solid var(--neon-purple);">
                             <div class="fragment-header">
                                 <span class="fragment-id" style="color:var(--neon-purple);">FOR-001</span>
                                 <span class="fragment-status" style="color:#605070; border-color:rgba(255,255,255,.06);">Planning</span>
                             </div>
-                            <h3 style="color:#b0c8d8;">Digital Forensics</h3>
-                            <p style="color:#9080b0; font-size:.9rem; line-height:1.7;">Learning forensic investigation techniques. Disk imaging, memory analysis, and timeline reconstruction.</p>
+                            <h3 style="color:#b0c8d8;">Autopsy Forensics</h3>
+                            <p style="color:#9080b0; font-size:.9rem; line-height:1.7;">Using Autopsy for forensic investigation. Disk imaging, timeline analysis, and learning how digital evidence is collected and examined.</p>
                             <div style="margin-top:15px; display:flex; gap:10px; flex-wrap:wrap;">
                                 <a href="#" class="tag tag-link" style="border-color:var(--neon-purple); color:var(--neon-purple);">Coming Soon</a>
                             </div>
                         </article>
-
                         <article class="fragment" style="border-left:3px solid var(--neon-cyan);">
                             <div class="fragment-header">
                                 <span class="fragment-id" style="color:var(--neon-cyan);">NET-001</span>
                                 <span class="fragment-status" style="color:#605070; border-color:rgba(255,255,255,.06);">Planning</span>
                             </div>
-                            <h3 style="color:#b0c8d8;">Network Security</h3>
+                            <h3 style="color:#b0c8d8;">Network Security Lab</h3>
                             <p style="color:#9080b0; font-size:.9rem; line-height:1.7;">Configuring firewalls, IDS/IPS, and packet analysis with Wireshark and Snort.</p>
                             <div style="margin-top:15px; display:flex; gap:10px; flex-wrap:wrap;">
                                 <a href="#" class="tag tag-link" style="border-color:var(--neon-cyan); color:var(--neon-cyan);">Coming Soon</a>
                             </div>
                         </article>
-
                         <div style="text-align:center; margin-top:10px; opacity:.3; font-size:.6rem; color:#605070; letter-spacing:.1em;">MORE EXPERIMENTS COMING SOON</div>
                     </div>
                 </div>
 
-                <!-- SCRIPTING ENGINE DETAIL -->
+                <!-- ===== SCRIPTING DETAIL ===== -->
                 <div id="code-detail" class="detail-view">
                     <button class="back-btn" onclick="showCategory('code')" style="margin-bottom:20px;">← Back to Projects</button>
                     <div class="fragments" style="gap:30px;">
                         <h2 style="color:#f0e0ff;">Scripting Engine</h2>
                         <p style="color:#9080b0; text-align:center; margin-bottom:20px;">Trying Python scripts, automation, and tools that connect systems applied with AI. Less manual work, more time for the important stuff: gaming and listening to music.</p>
-
                         <article class="fragment" style="border-left:3px solid var(--neon-yellow);">
                             <div class="fragment-header">
                                 <span class="fragment-id" style="color:var(--neon-yellow);">ORC-001</span>
@@ -495,7 +528,6 @@
                                 <a href="#" class="tag tag-link" style="border-color:var(--neon-yellow); color:var(--neon-yellow);">Coming Soon</a>
                             </div>
                         </article>
-
                         <article class="fragment" style="border-left:3px solid var(--neon-green);">
                             <div class="fragment-header">
                                 <span class="fragment-id" style="color:var(--neon-green);">AUTO-001</span>
@@ -507,23 +539,130 @@
                                 <a href="#" class="tag tag-link" style="border-color:var(--neon-green); color:var(--neon-green);">Coming Soon</a>
                             </div>
                         </article>
-
                         <div style="text-align:center; margin-top:10px; opacity:.3; font-size:.6rem; color:#605070; letter-spacing:.1em;">MORE EXPERIMENTS COMING SOON</div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="content-section" id="section-setup" role="tabpanel"><button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button><div class="fragments"><article class="fragment fragment-setup-combined"><div class="fragment-header"><span class="fragment-id">BHM-PC-001</span><span class="fragment-status status-active">● Active</span></div><h2 class="fragment-title">My Tools & Vibes</h2><div class="setup-grid"><div class="setup-column"><div class="setup-subtitle rig">The Rig</div><p class="fragment-desc" style="font-size:.8rem;margin-bottom:10px;">Custom-built battlestation.</p><ul class="spec-list"><li><span>CPU</span><span>Intel I7-14700F</span></li><li><span>GPU</span><span>RTX 4060 8GB</span></li><li><span>RAM</span><span>32GB</span></li><li><span>Storage</span><span>1TB NVMe + 2TB SSD</span></li><li><span>OS</span><span>Win 11 / Ubuntu</span></li></ul></div><div class="setup-column"><div class="setup-subtitle lab">The Lab</div><p class="fragment-desc" style="font-size:.8rem;margin-bottom:10px;">MacBook Pro mobile center.</p><ul class="spec-list"><li><span>Model</span><span>MacBook Pro</span></li><li><span>RAM</span><span>48GB Unified</span></li><li><span>Storage</span><span>1TB SSD</span></li><li><span>OS</span><span>macOS</span></li></ul></div></div><p class="setup-footer-text" data-en="Windows on the desk. macOS on the move. Linux on both. Three operating systems, one brain." data-es="Windows en el escritorio. macOS en movimiento. Linux en ambos. Tres sistemas operativos, un cerebro.">Windows on the desk. macOS on the move. Linux on both. Three operating systems, one brain.</p></article><article class="fragment fragment-music"><div class="fragment-header"><span class="fragment-id">MUS-STW-01</span><span class="fragment-status status-playing">● Playing</span></div><h2 class="fragment-title">Sound System</h2><p class="fragment-desc" data-en="Every project has its own soundtrack. Code runs on electronic. Late nights need lo-fi. Hardware work demands rock. The right music at the right time." data-es="Cada proyecto tiene su propia banda sonora. El código corre con electrónica. Las madrugadas necesitan lo-fi. El hardware exige rock. La música correcta en el momento correcto.">Every project has its own soundtrack. Code runs on electronic. Late nights need lo-fi. Hardware work demands rock. The right music at the right time.</p><div class="music-visual" aria-hidden="true"><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div><div class="music-bar"></div></div><div class="fragment-tags" style="margin-top:18px;"><span class="tag">Electronic</span><span class="tag">Lo-Fi</span><span class="tag">Rock</span><span class="tag">Synthwave</span></div><a href="https://soundcloud.com/mariana-lugo-221507793/sets/mrs-oris-melodies" target="_blank" rel="noopener noreferrer" class="playlist-link">Currently playing: Mrs Ori's Melodies</a></article></div></div>
+        <!-- ===== SETUP & TOOLS ===== -->
+        <div class="content-section" id="section-setup" role="tabpanel">
+            <button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button>
+            <div class="fragments">
+                <article class="fragment fragment-setup-combined">
+                    <div class="fragment-header">
+                        <span class="fragment-id">BHM-PC-001</span>
+                        <span class="fragment-status status-active">● Active</span>
+                    </div>
+                    <h2 class="fragment-title">My Tools & Vibes</h2>
+                    <div class="setup-grid">
+                        <div class="setup-column">
+                            <div class="setup-subtitle rig">The Rig</div>
+                            <p class="fragment-desc" style="font-size:.8rem;margin-bottom:10px;">Custom-built battlestation.</p>
+                            <ul class="spec-list">
+                                <li><span>CPU</span><span>Intel I7-14700F</span></li>
+                                <li><span>GPU</span><span>RTX 4060 8GB</span></li>
+                                <li><span>RAM</span><span>32GB</span></li>
+                                <li><span>Storage</span><span>1TB NVMe + 2TB SSD</span></li>
+                                <li><span>OS</span><span>Win 11 / Ubuntu</span></li>
+                            </ul>
+                        </div>
+                        <div class="setup-column">
+                            <div class="setup-subtitle lab">The Lab</div>
+                            <p class="fragment-desc" style="font-size:.8rem;margin-bottom:10px;">MacBook Pro mobile center.</p>
+                            <ul class="spec-list">
+                                <li><span>Model</span><span>MacBook Pro</span></li>
+                                <li><span>RAM</span><span>48GB Unified</span></li>
+                                <li><span>Storage</span><span>1TB SSD</span></li>
+                                <li><span>OS</span><span>macOS</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="setup-footer-text" data-en="Windows on the desk. macOS on the move. Linux on both. Three operating systems, one brain." data-es="Windows en el escritorio. macOS en movimiento. Linux en ambos. Tres sistemas operativos, un cerebro.">Windows on the desk. macOS on the move. Linux on both. Three operating systems, one brain.</p>
+                </article>
 
-        <div class="content-section" id="section-blog" role="tabpanel"><button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button><div class="fragments"><article class="fragment fragment-blog"><div class="fragment-header"><span class="fragment-id">TECH-BLOG-001</span><span class="fragment-status status-drafting">● Drafting</span></div><h2 class="fragment-title">Sketchbook</h2><p class="fragment-desc" data-en="Sometimes I write things down. What I'm building, what I'm learning, what's on my mind. No pressure, no schedule. Just me, my thoughts, and synthwave or EDM on my headphones." data-es="A veces escribo cosas. Lo que construyo, lo que aprendo, lo que tengo en mente. Sin presión, sin horario. Solo yo, mis pensamientos, y synthwave o EDM en mis audífonos.">Sometimes I write things down. What I'm building, what I'm learning, what's on my mind. No pressure, no schedule. Just me, my thoughts, and synthwave or EDM on my headphones.</p><div class="fragment-tags"><span class="tag">Writing</span><span class="tag">Dev Logs</span><span class="tag">Soon</span></div></article></div></div>
+                <!-- ===== SOUND SYSTEM ===== -->
+                <article class="fragment fragment-music">
+                    <div class="fragment-header">
+                        <span class="fragment-id">SIGNAL-MU-001</span>
+                        <span class="fragment-status status-playing">● Playing</span>
+                    </div>
+                    <h2 class="fragment-title">Sound System</h2>
+                    <p class="fragment-desc" data-en="Every project has its own soundtrack. Code runs on electronic. Late nights need lo-fi. Hardware work demands rock. The right music at the right time." data-es="Cada proyecto tiene su propia banda sonora. El código corre con electrónica. Las madrugadas necesitan lo-fi. El hardware exige rock. La música correcta en el momento correcto.">Every project has its own soundtrack. Code runs on electronic. Late nights need lo-fi. Hardware work demands rock. The right music at the right time.</p>
 
-        <div class="content-section" id="section-contact" role="tabpanel"><button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button><div class="fragments"><article class="fragment fragment-about"><div class="fragment-header"><span class="fragment-id">COFFEE-TIME-01</span><span class="fragment-status status-transmitting">● Transmitting</span></div><h2 class="fragment-title">Let's Connect</h2><p class="fragment-desc">Find me here.</p><div class="social-links"><a href="https://youtube.com/@AstroIntheCloud" target="_blank" rel="noopener noreferrer" class="tag tag-link">YouTube</a><a href="https://github.com/AstrointheCloud" target="_blank" rel="noopener noreferrer" class="tag tag-link">GitHub</a><a href="https://discord.gg/emE7ewSTj" target="_blank" rel="noopener noreferrer" class="tag tag-link">Discord</a><a href="https://www.linkedin.com/in/mariana-lugo/" target="_blank" rel="noopener noreferrer" class="tag tag-link">LinkedIn</a></div></article></div></div>
+                    <!-- Reproductor de SoundCloud con vinilo animado -->
+                    <div style="margin: 20px auto; max-width: 500px; border-radius: 12px; overflow: hidden; box-shadow: 0 0 30px rgba(255,85,0,0.15); background: rgba(0,0,0,0.3);">
+                        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A1629833398&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true">
+                        </iframe>
+                    </div>
 
-        <footer class="footer"><p>Building things, one project at a time.</p></footer>
+                    <!-- Créditos y enlace -->
+                    <div style="font-size: 10px; color: #605070; text-align: center; margin-top: 8px; letter-spacing: 0.1em; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
+                        <a href="https://soundcloud.com/mariana-lugo-221507793" title="Mrs Ori" target="_blank" style="color: #605070; text-decoration: none;">Mrs Ori</a> · 
+                        <a href="https://soundcloud.com/mariana-lugo-221507793/sets/mrs-oris-melodies" title="Mrs Ori’s Rhapsodies" target="_blank" style="color: #605070; text-decoration: none;">Mrs Ori’s Rhapsodies</a>
+                    </div>
+                    <div style="text-align: center; margin-top: 6px;">
+                        <a href="https://soundcloud.com/mariana-lugo-221507793/sets/mrs-oris-melodies" target="_blank" style="display: inline-block; padding: 6px 16px; border: 1px solid rgba(255,85,0,0.3); border-radius: 20px; color: #ff5500; text-decoration: none; font-size: 11px; font-weight: bold; letter-spacing: 0.08em; transition: all 0.3s;">🎵 Open in SoundCloud</a>
+                    </div>
+
+                    <div class="fragment-tags" style="margin-top:18px;">
+                        <span class="tag">Electronic</span>
+                        <span class="tag">Lo-Fi</span>
+                        <span class="tag">Rock</span>
+                        <span class="tag">Synthwave</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- ===== BLOG ===== -->
+        <div class="content-section" id="section-blog" role="tabpanel">
+            <button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button>
+            <div class="fragments">
+                <article class="fragment fragment-blog">
+                    <div class="fragment-header">
+                        <span class="fragment-id">TECH-BLOG-001</span>
+                        <span class="fragment-status status-drafting">● Drafting</span>
+                    </div>
+                    <h2 class="fragment-title">Sketchbook</h2>
+                    <p class="fragment-desc" data-en="Sometimes I write things down. What I'm building, what I'm learning, what's on my mind. No pressure, no schedule. Just me, my thoughts, and synthwave or EDM on my headphones." data-es="A veces escribo cosas. Lo que construyo, lo que aprendo, lo que tengo en mente. Sin presión, sin horario. Solo yo, mis pensamientos, y synthwave o EDM en mis audífonos.">Sometimes I write things down. What I'm building, what I'm learning, what's on my mind. No pressure, no schedule. Just me, my thoughts, and synthwave or EDM on my headphones.</p>
+                    <div class="fragment-tags">
+                        <span class="tag">Writing</span>
+                        <span class="tag">Dev Logs</span>
+                        <span class="tag">Soon</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- ===== CONTACT ===== -->
+        <div class="content-section" id="section-contact" role="tabpanel">
+            <button class="back-btn" onclick="goBack()" aria-label="Return to terminal">← Back to terminal</button>
+            <div class="fragments">
+                <article class="fragment fragment-about">
+                    <div class="fragment-header">
+                        <span class="fragment-id">COFFEE-TIME-01</span>
+                        <span class="fragment-status status-transmitting">● Transmitting</span>
+                    </div>
+                    <h2 class="fragment-title">Let's Connect</h2>
+                    <p class="fragment-desc">Find me here.</p>
+                    <div class="social-links">
+                        <a href="https://youtube.com/@AstroIntheCloud" target="_blank" rel="noopener noreferrer" class="tag tag-link">YouTube</a>
+                        <a href="https://github.com/AstrointheCloud" target="_blank" rel="noopener noreferrer" class="tag tag-link">GitHub</a>
+                        <a href="https://discord.gg/emE7ewSTj" target="_blank" rel="noopener noreferrer" class="tag tag-link">Discord</a>
+                        <a href="https://www.linkedin.com/in/mariana-lugo/" target="_blank" rel="noopener noreferrer" class="tag tag-link">LinkedIn</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Astro in the Cloud — Building Metamorph</p>
+        </footer>
     </main>
 
     <script>
+        // ===== FUNCIONES DE NAVEGACIÓN =====
         function showDetail(category) {
             document.querySelectorAll('.category-view, .detail-view').forEach(el => {
                 el.style.display = 'none';
@@ -543,7 +682,14 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        // Efecto Scramble
+        function goBack() {
+            document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
+            document.getElementById('terminalWrapper').style.display = 'block';
+            document.getElementById('terminalInput').focus();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // ===== EFECTO SCRAMBLE =====
         (function() {
             const st = document.querySelector('.scramble-text');
             if (st) {
@@ -574,24 +720,179 @@
             }
         })();
 
-        // Estrellas y efecto mouse
-        (function(){const sc=document.getElementById('stars');for(let i=0;i<150;i++){const s=document.createElement('div');s.className='star';let l,t;const z=Math.random();if(z<.30){l=Math.random()*100;t=Math.random()*22}else if(z<.55){l=Math.random()*100;t=55+Math.random()*45}else if(z<.75){l=Math.random()*10;t=22+Math.random()*78}else{l=90+Math.random()*10;t=22+Math.random()*78}s.style.left=l+'%';s.style.top=t+'%';const sz=Math.random()*2.2+.8;s.style.width=sz+'px';s.style.height=sz+'px';s.style.animationDelay=Math.random()*5+'s';s.style.animationDuration=(Math.random()*3+2)+'s';s.style.opacity=Math.random()*.45+.12;sc.appendChild(s)}const mg=document.getElementById('mouseGlow');document.addEventListener('mousemove',e=>{mg.style.left=e.clientX+'px';mg.style.top=e.clientY+'px';mg.style.opacity='1'});document.addEventListener('mouseleave',()=>{mg.style.opacity='0'});
-        const to=document.getElementById('terminalOutput'),ti=document.getElementById('terminalInput'),tc=document.getElementById('terminal'),tw=document.getElementById('terminalWrapper');
-        const lb=document.getElementById('loadingBar'),lt=document.getElementById('loadingText'),bf=document.getElementById('barFill');
-        const sm={about:'section-about',certs:'section-certs',projects:'section-projects',setup:'section-setup',blog:'section-blog',contact:'section-contact'};
-        window.animateLoading=function(cb){lb.classList.add('active');bf.style.width='0%';lt.textContent='Loading...';let p=0;const iv=setInterval(()=>{p+=Math.random()*25+10;if(p>=100){p=100;clearInterval(iv);lt.textContent='Access granted. Opening section...';setTimeout(()=>{lb.classList.remove('active');bf.style.width='0%';if(cb)cb()},300)}bf.style.width=p+'%'},80)};
-        window.showSection=function(id){tw.style.display='none';document.querySelectorAll('.content-section').forEach(s=>s.classList.remove('active'));const sec=document.getElementById(id);if(sec)sec.classList.add('active');window.scrollTo({top:0,behavior:'smooth'})};
-        window.goBack=function(){document.querySelectorAll('.content-section').forEach(s=>s.classList.remove('active'));tw.style.display='block';ti.focus();window.scrollTo({top:0,behavior:'smooth'})};
-        function addOutput(html,c='response'){const l=document.createElement('div');l.className='line '+c;l.innerHTML=html;to.appendChild(l);tc.scrollTop=tc.scrollHeight}
-        function addCommandLine(c){const l=document.createElement('div');l.className='line cmd-line';l.textContent='astro@cloud:~$ '+c;to.appendChild(l);tc.scrollTop=tc.scrollHeight}
-        ti.addEventListener('keydown',function(e){if(e.key==='Enter'){const c=ti.value.trim().toLowerCase();if(c==='')return;addCommandLine(c);ti.value='';if(c==='clear'){to.innerHTML='';return}if(c==='exit'){addOutput('<span class="gold">Terminating session...</span>');addOutput('<span class="dim">Session closed. Come back anytime.</span>');setTimeout(()=>{try{window.open('','_self','');window.close()}catch(e){}if(!window.closed){addOutput('<span class="dim">(Browser security prevents auto-close. You can close this tab manually.)</span>');ti.focus()}},1000);return}if(c==='help'){addOutput('<span class="gold">Available commands:</span>');addOutput('  <span class="highlight">about</span>      About Me');addOutput('  <span class="highlight">certs</span>      Certifications');addOutput('  <span class="highlight">projects</span>   What I\'m Building');addOutput('  <span class="highlight">setup</span>      My Tools & Vibes');addOutput('  <span class="highlight">blog</span>       Sketchbook');addOutput('  <span class="highlight">contact</span>    Let\'s Connect');addOutput('  <span class="highlight">clear</span>      Clear terminal');addOutput('  <span class="highlight">exit</span>       Close session');addOutput('  <span class="highlight">help</span>       This message');return}if(sm[c]){addOutput('<span class="success">Opening '+c+'...</span>');window.animateLoading(()=>window.showSection(sm[c]));return}addOutput('<span class="error">command not found: '+c+'</span> Type <span class="highlight">help</span> to see available commands.','error')}});
-        tc.addEventListener('click',()=>ti.focus());
-        let cl='en';const bE=document.getElementById('btnEN'),bS=document.getElementById('btnES');
-        function switchLang(l){cl=l;bE.classList.toggle('active',l==='en');bS.classList.toggle('active',l==='es');bE.setAttribute('aria-pressed',l==='en');bS.setAttribute('aria-pressed',l==='es');document.querySelectorAll('[data-en][data-es]').forEach(el=>{const t=el.getAttribute('data-'+l);if(t!==null)el.textContent=t})}
-        bE.addEventListener('click',()=>switchLang('en'));bS.addEventListener('click',()=>switchLang('es'));
-        document.querySelectorAll('.fragment').forEach(f=>{f.addEventListener('click',function(e){if(e.target.closest('a'))return;this.style.transform='scale(.97)';setTimeout(()=>{this.style.transform=''},150);const fl=document.createElement('div');fl.style.cssText='position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:300;background:rgba(255,255,255,.03);transition:opacity .6s;';document.body.appendChild(fl);setTimeout(()=>{fl.style.opacity='0';setTimeout(()=>fl.remove(),600)},30)})});
-        console.log("Astro in the Cloud — Ready for launch.");
+        // ===== ESTRELLAS Y MOUSE =====
+        (function(){
+            const sc = document.getElementById('stars');
+            for (let i = 0; i < 150; i++) {
+                const s = document.createElement('div');
+                s.className = 'star';
+                let l, t;
+                const z = Math.random();
+                if (z < 0.30) { l = Math.random() * 100; t = Math.random() * 22; }
+                else if (z < 0.55) { l = Math.random() * 100; t = 55 + Math.random() * 45; }
+                else if (z < 0.75) { l = Math.random() * 10; t = 22 + Math.random() * 78; }
+                else { l = 90 + Math.random() * 10; t = 22 + Math.random() * 78; }
+                s.style.left = l + '%';
+                s.style.top = t + '%';
+                const sz = Math.random() * 2.2 + 0.8;
+                s.style.width = sz + 'px';
+                s.style.height = sz + 'px';
+                s.style.animationDelay = Math.random() * 5 + 's';
+                s.style.animationDuration = (Math.random() * 3 + 2) + 's';
+                s.style.opacity = Math.random() * 0.45 + 0.12;
+                sc.appendChild(s);
+            }
+
+            const mg = document.getElementById('mouseGlow');
+            document.addEventListener('mousemove', e => {
+                mg.style.left = e.clientX + 'px';
+                mg.style.top = e.clientY + 'px';
+                mg.style.opacity = '1';
+            });
+            document.addEventListener('mouseleave', () => {
+                mg.style.opacity = '0';
+            });
         })();
+
+        // ===== TERMINAL =====
+        const to = document.getElementById('terminalOutput');
+        const ti = document.getElementById('terminalInput');
+        const tc = document.getElementById('terminal');
+        const tw = document.getElementById('terminalWrapper');
+        const lb = document.getElementById('loadingBar');
+        const lt = document.getElementById('loadingText');
+        const bf = document.getElementById('barFill');
+        const sm = {
+            about: 'section-about',
+            certs: 'section-certs',
+            projects: 'section-projects',
+            setup: 'section-setup',
+            blog: 'section-blog',
+            contact: 'section-contact'
+        };
+
+        window.animateLoading = function(cb) {
+            lb.classList.add('active');
+            bf.style.width = '0%';
+            lt.textContent = 'Loading...';
+            let p = 0;
+            const iv = setInterval(() => {
+                p += Math.random() * 25 + 10;
+                if (p >= 100) {
+                    p = 100;
+                    clearInterval(iv);
+                    lt.textContent = 'Access granted. Opening section...';
+                    setTimeout(() => {
+                        lb.classList.remove('active');
+                        bf.style.width = '0%';
+                        if (cb) cb();
+                    }, 300);
+                }
+                bf.style.width = p + '%';
+            }, 80);
+        };
+
+        window.showSection = function(id) {
+            tw.style.display = 'none';
+            document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
+            const sec = document.getElementById(id);
+            if (sec) sec.classList.add('active');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+
+        function addOutput(html, c = 'response') {
+            const l = document.createElement('div');
+            l.className = 'line ' + c;
+            l.innerHTML = html;
+            to.appendChild(l);
+            tc.scrollTop = tc.scrollHeight;
+        }
+
+        function addCommandLine(c) {
+            const l = document.createElement('div');
+            l.className = 'line cmd-line';
+            l.textContent = 'astro@cloud:~$ ' + c;
+            to.appendChild(l);
+            tc.scrollTop = tc.scrollHeight;
+        }
+
+        ti.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                const c = ti.value.trim().toLowerCase();
+                if (c === '') return;
+                addCommandLine(c);
+                ti.value = '';
+                if (c === 'clear') { to.innerHTML = ''; return; }
+                if (c === 'exit') {
+                    addOutput('<span class="gold">Terminating session...</span>');
+                    addOutput('<span class="dim">Session closed. Come back anytime.</span>');
+                    setTimeout(() => {
+                        try { window.open('', '_self', ''); window.close(); } catch (e) {}
+                        if (!window.closed) {
+                            addOutput('<span class="dim">(Browser security prevents auto-close. You can close this tab manually.)</span>');
+                            ti.focus();
+                        }
+                    }, 1000);
+                    return;
+                }
+                if (c === 'help') {
+                    addOutput('<span class="gold">Available commands:</span>');
+                    addOutput('  <span class="highlight">about</span>      About Me');
+                    addOutput('  <span class="highlight">certs</span>      Certifications');
+                    addOutput('  <span class="highlight">projects</span>   What I\'m Building');
+                    addOutput('  <span class="highlight">setup</span>      My Tools & Vibes');
+                    addOutput('  <span class="highlight">blog</span>       Sketchbook');
+                    addOutput('  <span class="highlight">contact</span>    Let\'s Connect');
+                    addOutput('  <span class="highlight">clear</span>      Clear terminal');
+                    addOutput('  <span class="highlight">exit</span>       Close session');
+                    addOutput('  <span class="highlight">help</span>       This message');
+                    return;
+                }
+                if (sm[c]) {
+                    addOutput('<span class="success">Opening ' + c + '...</span>');
+                    window.animateLoading(() => window.showSection(sm[c]));
+                    return;
+                }
+                addOutput('<span class="error">command not found: ' + c + '</span> Type <span class="highlight">help</span> to see available commands.', 'error');
+            }
+        });
+
+        tc.addEventListener('click', () => ti.focus());
+
+        // ===== IDIOMA =====
+        let cl = 'en';
+        const bE = document.getElementById('btnEN');
+        const bS = document.getElementById('btnES');
+
+        function switchLang(l) {
+            cl = l;
+            bE.classList.toggle('active', l === 'en');
+            bS.classList.toggle('active', l === 'es');
+            bE.setAttribute('aria-pressed', l === 'en');
+            bS.setAttribute('aria-pressed', l === 'es');
+            document.querySelectorAll('[data-en][data-es]').forEach(el => {
+                const t = el.getAttribute('data-' + l);
+                if (t !== null) el.textContent = t;
+            });
+        }
+
+        bE.addEventListener('click', () => switchLang('en'));
+        bS.addEventListener('click', () => switchLang('es'));
+
+        // ===== CLICK EN FRAGMENTOS =====
+        document.querySelectorAll('.fragment').forEach(f => {
+            f.addEventListener('click', function(e) {
+                if (e.target.closest('a')) return;
+                this.style.transform = 'scale(.97)';
+                setTimeout(() => { this.style.transform = ''; }, 150);
+                const fl = document.createElement('div');
+                fl.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:300;background:rgba(255,255,255,.03);transition:opacity .6s;';
+                document.body.appendChild(fl);
+                setTimeout(() => { fl.style.opacity = '0'; setTimeout(() => fl.remove(), 600); }, 30);
+            });
+        });
+
+        console.log("Astro in the Cloud — Building Metamorph.");
     </script>
 </body>
 </html>
